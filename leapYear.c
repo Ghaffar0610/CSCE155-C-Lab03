@@ -12,7 +12,7 @@
  * Returns true (1) if the given year is a leap year,
  * false (0) if it is not a leap year.
  */
-int isLeapYear(int year);
+int isleapyear(int year);
 
 int main(int argc, char **argv) {
 
