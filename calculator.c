@@ -23,12 +23,8 @@ int main(int argc, char **argv) {
   scanf("%lf", &b);
 
   printf("Enter operation:\n");
-  printf("(1) Addition\n");
-  printf("(2) Subtraction\n");
-  printf("(3) Multiplication\n");
-  printf("(4) Division\n");
-  printf("(5) Minimum\n");
-  printf("(6) log_a(b)\n");
+  printf("(1) Addition\n (2) Subtraction\n (3) Multiplication\n (4) Division\n (5) Minimum\n (6) log_a(b)\n");
+
   scanf("%d", &choice);
 
   if(choice == 1) {
